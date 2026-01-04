@@ -95,6 +95,47 @@ section h2 {
   margin-bottom: 20px;
 }
 
+.footer {
+  background: rgba(10, 10, 20, 0.9);
+  backdrop-filter: blur(6px);
+  padding: 20px;
+  margin-top: 60px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer p {
+  color: #bbb;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer b {
+  color: #fff;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-media a {
+  color: #aaa;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.social-media a:hover {
+  color: #00bfff;
+  transform: translateY(-4px);
+}
+
 /* Skills */
 .skill-box {
   display: flex;
