@@ -100,33 +100,6 @@ nav ul li a:hover {
   margin-bottom: 35px;
 }
 
-.social-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
-}
-
-.btn {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 12px 22px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 500;
-  transition: 0.3s ease;
-}
-
-.btn i {
-  font-size: 18px;
-}
-
-.btn:hover {
-  transform: translateY(-4px);
-  opacity: 0.9;
-}
 
 /* Warna Tombol */
 .tele {
@@ -270,43 +243,6 @@ section h2 {
 .social-media a:hover {
   color: #00bfff;
   transform: translateY(-4px);
-}
-
-/* Skills */
-.skil {
-  padding: 80px 20px;
-  background: linear-gradient(135deg, #0f172a, #020617);
-  color: #fff;
-}
-
-.skill-box {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-.skill-box div {
-  padding: 80px 20px;
-  background: linear-gradient(135deg, #0f172a, #020617);
-  color: #fff;
-  border-radius: 20px;
-}
-
-/* Projects */
-.project-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-  gap: 20px;
-}
-.card {
-  padding: 30px;
-  background: rgba(255,255,255,0.1);
-  border-radius: 20px;
-  text-align: center;
-  transition: 0.3s;
-}
-.card:hover {
-  transform: translateY(-10px);
-  background: rgba(255,255,255,0.2);
 }
 
 /* Footer */
