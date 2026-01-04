@@ -211,6 +211,12 @@ section h2 {
 }
 
 /* Skills */
+.skil {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: #fff;
+}
+
 .skill-box {
   display: flex;
   gap: 15px;
