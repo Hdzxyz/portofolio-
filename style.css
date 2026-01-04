@@ -75,6 +75,80 @@ nav ul li a:hover {
   opacity: 0.8;
 }
 
+.about {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: #fff;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.desc {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #cbd5f5;
+  margin-bottom: 35px;
+}
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.btn i {
+  font-size: 18px;
+}
+
+.btn:hover {
+  transform: translateY(-4px);
+  opacity: 0.9;
+}
+
+/* Warna Tombol */
+.ig {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+  color: #fff;
+}
+
+.github {
+  background: #111;
+  color: #fff;
+}
+
+.wa {
+  background: #25d366;
+  color: #fff;
+}
+
+.yt {
+  background: #ff0000;
+  color: #fff;
+  }
+
 .btn {
   width: fit-content;
   padding: 12px 25px;
