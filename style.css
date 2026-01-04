@@ -100,7 +100,6 @@ nav ul li a:hover {
   margin-bottom: 35px;
 }
 
-
 /* Warna Tombol */
 .tele {
   background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
@@ -181,7 +180,6 @@ nav ul li a:hover {
   transform: translateY(-6px);
   background: rgba(255,255,255,0.1);
 }
-
 /* Warna khas */
 .ig i { color: #e1306c; }
 .github i { color: #fff; }
