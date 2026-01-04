@@ -21,6 +21,31 @@ body {
 }
 
 /* WELCOME */
+.terminal {
+  font-family: 'Courier New', monospace;
+  text-align: left;
+}
+
+.cmd {
+  color: #22c55e;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.terminal h1 {
+  font-size: 28px;
+  margin: 15px 0;
+}
+
+.terminal span {
+  color: #38bdf8;
+}
+
+.desc {
+  color: #cbd5f5;
+  margin-bottom: 20px;
+}
+
 .welcome {
   display: flex;
   justify-content: center;
