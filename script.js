@@ -1,4 +1,6 @@
 const canvas = document.getElementById("stars");
+document.getElementById("year").textContent = new Date().getFullYear();
+
 const ctx = canvas.getContext("2d");
 
 let w, h;
