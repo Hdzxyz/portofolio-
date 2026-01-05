@@ -1,5 +1,3 @@
-document.getElementById("year").textContent = new Date().getFullYear();
-
 const canvas = document.getElementById("stars");
 const ctx = canvas.getContext("2d");
 
@@ -53,4 +51,3 @@ function animate() {
 }
 
 animate();
-      
