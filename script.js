@@ -1,3 +1,34 @@
+const terminal = document.getElementById("terminal");
+const enterBtn = document.getElementById("enterBtn");
+
+const lines = [
+  "$ booting system...",
+  "$ loading developer profile",
+  "$ initializing portfolio",
+  "",
+  "Name     : HadzzOfficial",
+  "Role     : Web Developer",
+  "Special  : Hosting, Bot WhatsApp & Telegram",
+  "",
+  "Status   : READY",
+  "",
+  "$ type 'enter' to continue..."
+];
+
+let lineIndex = 0;
+
+function typeLine() {
+  if (lineIndex < lines.length) {
+    terminal.innerHTML += lines[lineIndex] + "\n";
+    lineIndex++;
+    setTimeout(typeLine, 400);
+  } else {
+    enterBtn.style.display = "block";
+  }
+}
+
+typeLine();
+
 const canvas = document.getElementById("stars");
 const ctx = canvas.getContext("2d");
 
