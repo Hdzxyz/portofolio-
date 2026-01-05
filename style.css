@@ -5,8 +5,28 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* BACKGROUND FOTO */
+.bg-photo {
+  position: fixed;
+  inset: 0;
+  background: 
+    linear-gradient(rgba(2,6,23,0.75), rgba(2,6,23,0.85)),
+    url("https://files.catbox.moe/uyl1ct.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -3;
+}
+
+/* CANVAS BINTANG */
+#stars {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+}
+
+/* KONTEN DI ATAS */
 body {
-  background: url('https://files.catbox.moe/uyl1ct.jpg') no-repeat center/cover;
   min-height: 100vh;
   color: #fff;
 }
